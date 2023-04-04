@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #333;
+  color: white;
+  margin: auto;
+}
+
+.form-wrapper form {
+  width: 100%;
+}
+
+.form-wrapper form input {
+  height: 40px;
+  margin-top: 20px;
+}
+
+.form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-wrapper img {
+  width: 100px;
+  height: 100px;
+  
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+
+.logo-wrapper h2 {
+  padding: 40px;
+}
+
+.info-wrapper {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+
+}
+
+
+
+button {
+  width: 60%;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+
+
+
+
+
+
